@@ -41,8 +41,8 @@ module.exports = withCommerceConfig({
   experimental: { 
     optimizeCss: {
       preload: "media",
-      minimumExternalSize: 15*1024,
-      inlineThreshold: 15*1024,
+      inlineThreshold: 100*1024,
+      minimumExternalSize: 100*1024,
       pruneSource: true,
     },
   },
